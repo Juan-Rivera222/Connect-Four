@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.h1{
+    
+}
+.game{
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 650px;
+    height: 600px;
+    background: #1e2a78;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px #000000;
+    padding: 1.5rem;
+}
+
+.slot{
+    width: 90px;
+    height: 90px;
+    background: #dee1ec;
+    border-radius: 50%;
+}
