@@ -76,7 +76,17 @@ function verticalCheck(){
     for ( let col = 0; col < 7; col++){
         for( let row =0; row < 3; row++){
            if(colorMatchCheck(tableRow[row].children[col].style.backgroundColor, tableRow[row+1].children[col].style.backgroundColor,
-            tableRow[row+2].children[col].style.backgroundColor, tableRow[row+3].children[col].style.backgroundColor))  
+            tableRow[row+2].children[col].style.backgroundColor, tableRow[row+3].children[col].style.backgroundColor)){
+              return true;
+            }
+        }
+    }
+}
+
+function diagnalCheck1(){
+    for( let col = 0; col < 4; col++){
+        for ( row = 0; row <3; roww++){
+            if
         }
     }
 }
